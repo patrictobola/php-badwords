@@ -8,14 +8,17 @@
 </head>
 
 <body>
-    <form action="badwords.php">
-        <div>
+    <form action="badwords.php" style="margin-top: 300px; text-align: center;">
+        <div style="margin-bottom: 50px;">
             <label for="word">Inserisci la parola che vuoi censurare</label>
-            <input type="text" name="word" id="word">
+            <div><input type="text" name="word" id="word" value="weekend"></div>
         </div>
         <div>
             <label for="paragraph">Inserisci quì il testo completo</label>
-            <input type="text" name="paragraph" id="paragraph">
+            <div>
+                <textarea name="paragraph" id="paragraph" cols="30" rows="3"
+                    style="resize: none;">Vi semplifico la correzione dell'esercizio mettendo già un testo di mia spontanea volontà! Buon weekend ragazzi!</textarea>
+            </div>
         </div>
         <button>Invia</button>
     </form>
